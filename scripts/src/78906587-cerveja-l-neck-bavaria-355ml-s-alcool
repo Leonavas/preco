@@ -1,0 +1,699 @@
+<html>
+<head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"66cfb43064","applicationID":"5460402","transactionName":"IF4NFkFYXFpRRx5IRgxVFgFHRB9FXFpG","queueTime":0,"applicationTime":59,"agent":"js-agent.newrelic.com/nr-768.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+<title>Tributação de CERVEJA L NECK BAVARIA 355ML S/ALCOOL - GTIN: 78906587 - Cosmos</title>
+<meta content='varejo, mercado, supermercado, tributação, NCM, PIS, COFINS, GTIN, EAN, Código de Barras, Brasil, SEFAZ, CFOP, Tabelas Fiscais, Situação Tributária, CST, Apuração, Impostos, Taxas, Governo, ICMS, ICM' name='keywords'>
+<meta content='Consulta de Tributação de Produtos e NCMs (Nomenclatura Comum do Mercosul) para PIS, COFINS e ICMS - Especializado no Varejo' name='description'>
+<meta content='width=device-width, user-scalable=no, initial-scale=1' name='viewport'>
+<link rel="stylesheet" media="screen" href="/assets/application-2e3ed4a5e58a1e73efa0c2d1c29efc0b.css" />
+<link rel="stylesheet" media="screen" href="/assets/vertical_ad-6ec718fca2741031ea93c53cbab28b9c.css" />
+<link rel="stylesheet" media="screen" href="/assets/inner-3c4edd0c2313fe56267277e4680f2662.css" />
+<link rel="stylesheet" media="print" href="/assets/print-3c542316966e05ecf83ed53d0ad3ac1f.css" />
+<script src="/assets/application-d16f459f0100eb8f8c523d859f659ac8.js"></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="jcEv17Vs8Ek+PiXJOD/MfTfxmvuoqhamYRzfTZ6qDa9bToG5DGyJ969Eckg2EafE6cwY96JTWKdxoZGhBbeF4w==" />
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='/favicon.ico' rel='icon' type='image/x-icon'>
+<meta content='CERVEJA L NECK BAVARIA 355ML S/ALCOOL' property='og:title'>
+<meta content='GTIN: 78906587 - NCM: 2202.90.00 - Bebidas, líquidos alcoólicos e vinagres - Águas, incluídas as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos de frutas ou de produtos hortícolas, da posição 2009 - Outras' property='og:description'>
+<meta content='/assets/product-placeholder-3677e4625e4107905833b6d53509d62c.png' property='og:image'>
+<meta content='http://cosmos.bluesoft.com.br/produtos/78906587-cerveja-l-neck-bavaria-355ml-s-alcool' property='og:url'>
+<meta content='product' property='og:type'>
+<link rel="alternate" hreflang="pt" href="http://cosmos.bluesoft.com.br/produtos/78906587-cerveja-l-neck-bavaria-355ml-s-alcool" /><link rel="alternate" hreflang="en" href="http://cosmos.bluesoft.io/products/78906587-cerveja-l-neck-bavaria-355ml-s-alcool" />
+
+</head>
+<body>
+<nav class='hide_print navbar' id='topbar' role='navigation'>
+<div id='cssmenu'>
+<ul>
+<li>
+<a href='http://www.bluesoft.com.br/'>Bluesoft</a>
+</li>
+<li>
+<a href='http://www.bluesofterp.com.br/'>ERP</a>
+</li>
+<li>
+<a href='http://www.acelerato.com/crm/'>CRM</a>
+</li>
+<li>
+<a href='http://www.acelerato.com/atendimento/'>Help Desk</a>
+</li>
+<li>
+<a href='http://www.acelerato.com/projetos/'>Projetos</a>
+</li>
+<li>
+<a href='http://www.acelerato.com/audit/'>Auditoria</a>
+</li>
+<li>
+<a href='http://cosmos.bluesoft.com.br/'>
+<span class='destaque'>Cosmos</span>
+</a>
+</li>
+<li>
+<a href='http://www.bluesofterp.com.br/bi/'>BI</a>
+</li>
+<li>
+<a href='http://www.bluesofterp.com.br/e-commerce/'>e-commerce</a>
+</li>
+<li style='text-align:right; float:right;'>
+<a href='http://carreiras.bluesoft.com.br/'>Carreiras</a>
+</li>
+</ul>
+
+</div>
+<div>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' data-target='#menu-nav' data-toggle='collapse' type='button'>
+<i class='fa fa-bars btn btn-default' style='margin-top: -9px;'></i>
+</button>
+<a class='logo-bluesoft hidden-md hidden-xs hidden-sm' href='/'></a>
+</div>
+<div class='collapse navbar-collapse' id='menu-nav'>
+<ul class='nav navbar-nav'>
+<li>
+<a href="/ncms">NCM</a>
+</li>
+<li>
+<a href="/nbs">NBS</a>
+</li>
+<li>
+<a href="/categorias">Categorias</a>
+</li>
+<li>
+<a href="/marcas">Marcas</a>
+</li>
+<li class='dropdown'>
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Tabelas
+<span class='caret'></span>
+</a><ul class='dropdown-menu' role='menu'>
+<li class='dropdown-header'>Código de Situação Tributária</li>
+<li>
+<a href="/tabelas/cst/icms">ICMS</a>
+</li>
+<li>
+<a href="/tabelas/cst/ipis">IPI</a>
+</li>
+<li>
+<a href="/tabelas/cst/pis-cofins">PIS / COFINS</a>
+</li>
+<li class='divider'></li>
+<li>
+<a href="/tabelas/modelo-de-documentos-fiscais">Documentos Fiscais</a>
+</li>
+<li>
+<a href="/tabelas/lista-de-servicos-anexa-a-lei-complementar-116-de-31-de-julho-de-2003">Serviços</a>
+</li>
+<li>
+<a href="/tabelas/cfops">CFOP</a>
+</li>
+<li class='divider'></li>
+<li class='dropdown-header'>IBGE</li>
+<li>
+<a href="/tabelas/tabela-municipios-ibge">Municípios</a>
+</li>
+<li>
+<a href="/tabelas/tabela-estados-ibge">UF</a>
+</li>
+<li>
+<a href="/tabelas/tabela-paises-ibge">Países</a>
+</li>
+<li>
+<a href="/tabelas/cnaes">CNAES</a>
+</li>
+<li class='divider'></li>
+<li class='dropdown-header'>Simples Nacional</li>
+<li>
+<a href="/tabelas/tabela-simples-nacional-comercio">Comércio</a>
+</li>
+<li>
+<a href="/tabelas/tabela-simples-nacional-industria">Indústria</a>
+</li>
+<li>
+<a href="/tabelas/tabela-simples-nacional-receitas-de-locacao-de-bens-moveis-e-de-prestacao-de-servicos">Locação de Bens</a>
+</li>
+<li>
+<a href="/tabelas/tabela-simples-nacional-receitas-decorrentes-da-prestacao-de-servicos">Serviços</a>
+</li>
+<li class='divider'></li>
+<li class='dropdown-header'>Cálculos</li>
+<li>
+<a href="/tabelas/calculo-imposto-de-renda">IRRF sobre salário</a>
+</li>
+<li>
+<a href="/tabelas/tabela-de-salarios-familia">Salário Familia</a>
+</li>
+<li>
+<a href="/tabelas/tabela-de-salarios-minimos">Salário Minimo</a>
+</li>
+<li>
+<a href="/tabelas/salario-de-contribuicao-da-previdencia-social-tabela-do-inss">INSS</a>
+</li>
+</ul>
+</li>
+<li class='dropdown hidden-xs hidden-sm hidden-md'>
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Links
+<span class='caret'></span>
+</a><ul class='dropdown-menu dropdown-toogle' role='menu'>
+<li>
+<a href="/importants_links">Secretaria da Fazenda dos Estados</a>
+</li>
+<li class='divider'></li>
+<li>
+<a target="_blank" href="http://www.correios.com.br/">Correios</a>
+</li>
+<li>
+<a target="_blank" href="http://www.receita.fazenda.gov.br/Aplicacoes/ATCTA/cpf/ConsultaPublica.asp">Consulta CPF</a>
+</li>
+<li>
+<a target="_blank" href="http://www.receita.fazenda.gov.br/PessoaJuridica/defaultconsultas.htm">Consulta CNPJ</a>
+</li>
+<li>
+<a target="_blank" href="http://www.portaltributario.com.br/tributos.htm">Consulta Tributos do Brasil</a>
+</li>
+<li>
+<a target="_blank" href="http://www.receita.fazenda.gov.br/">Receita Federal</a>
+</li>
+<li>
+<a target="_blank" href="http://www8.receita.fazenda.gov.br/SimplesNacional/">Simples Nacional</a>
+</li>
+<li>
+<a target="_blank" href="http://www.sintegra.gov.br/">Sintegra</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Soluções
+<span class='caret'></span>
+</a><ul class='dropdown-menu' role='menu'>
+<li>
+<a target="_blank" href="http://acelerato.com/projetos/">Gestão de Projetos</a>
+</li>
+<li>
+<a target="_blank" href="http://acelerato.com/atendimento/">Help Desk</a>
+</li>
+<li>
+<a target="_blank" href="http://www.acelerato.com/">CRM</a>
+</li>
+<li>
+<a target="_blank" href="http://www.acelerato.com/audit/">Auditoria de Campo</a>
+</li>
+<li>
+<a href="/erp">ERP</a>
+</li>
+<li>
+<a href="/ecommerce">E-commerce</a>
+</li>
+<li>
+<a href="/bluesoft_intelligence">Business Intelligence</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/fabricante/convite">Sou Fabricante
+</a></li>
+<li>
+<a target="_blank" href="/anuncie.pdf"><b>
+Anuncie
+</b>
+</a></li>
+</ul>
+<ul class='nav navbar-nav navbar-right'>
+<li class='dropdown'>
+<a href="http://cosmos.bluesoft.io/products/78906587-cerveja-l-neck-bavaria-355ml-s-alcool"><img class="country-flag-menu" title="Alterar Idioma para Inglês - Change Language to English" src="/assets/countries/16/us-74c8f3ef5582f5aab6261d37bc967385.png" alt="Us" />
+</a></li>
+<li class='text-center'>
+<a class="btn-logar" href="/users/sign_in">Entrar</a>
+</li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+<div class='hide_print search_box'>
+<form class="container" action="/pesquisar" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class='search'>
+<a class='logo-cosmos hidden-xs' href='/'>
+<img src="/assets/home/logo_cosmos_white-e042cd0b31938c82395f700bd6f00cfb.png" alt="Logo cosmos white" />
+</a>
+<div class='input-group'>
+<input class='form-control' id='search-input' name='q' placeholder='Digite a descrição do produto, NCM ou Código de Barras (GTIN/EAN)' type='text'>
+<span class='input-group-btn'>
+<button id='magnifier' type='submit'>
+<i class='fa fa-search'></i>
+</button>
+</span>
+</div>
+</div>
+</form>
+
+</div>
+
+<div class='container' id='container-principal'>
+<section class='col-md-8 col-xs-12 main'>
+<div class='panel panel-default info-produto'>
+<div class='panel-body'>
+<div class='clearfix' id='details'>
+
+
+<h1 class='page-header'>
+CERVEJA L NECK BAVARIA 355ML S/ALCOOL
+<div class='small'>
+Código de Barras (GTIN/EAN):
+0000078906587
+</div>
+</h1>
+<div class='pull-right country-flag'>
+<img alt="Produto Registrado em Brasil" title="Produto Registrado em Brasil" src="/assets/countries/32/br-895f66ea1f8f9bdd32b89836e996bcc8.png" />
+</div>
+<div class='row' id='product-header'>
+<div class='col-xs-12 col-sm-3 text-center'>
+<a class="thumbnail" href="#"><img alt="0000078906587 - CERVEJA L NECK BAVARIA 355ML S/ALCOOL" title="0000078906587 - CERVEJA L NECK BAVARIA 355ML S/ALCOOL" id="main-thumbnail" src="/assets/product-placeholder-3677e4625e4107905833b6d53509d62c.png" /></a>
+<br>
+<br>
+<img id='barcode' onclick="$('#barcode-big-modal').modal('show');" title='Clique aqui para personalizar'>
+<script>
+  $("#barcode").JsBarcode(0000078906587,{format:"EAN",displayValue:true,fontSize:12,width:1,height:40});
+</script>
+<div class='form-group'></div>
+</div>
+<div class='col-xs-12 col-sm-9' id='ncm-description'>
+<p>
+<b>Status:</b>
+<span class='structure'>
+Não Auditado
+</span>
+</p>
+<p>
+<b title='Nomenclatura Comum do Mercosul'>NCM:</b>
+<span class='full-description'>
+<a href="/ncms/22029000-outras">2202.90.00 - Bebidas, líquidos alcoólicos e vinagres - Águas, incluídas as águas minerais e as águas gaseificadas, adicionadas de açúcar ou de outros edulcorantes ou aromatizadas e outras bebidas não alcoólicas, exceto sucos de frutas ou de produtos hortícolas, da posição 2009 - Outras
+</a></span>
+</p>
+<p>
+<b>
+País de Origem:
+</b>
+<span class='country'>
+Brasil
+</span>
+</p>
+<p>
+<b>
+Fabricante:
+</b>
+<span class='owner'>
+Desconhecido
+</span>
+</p>
+<p>
+<b>
+Categoria (GPC):
+</b>
+<a href="/categorias/cerveja-10000159"><span class='gpc'>
+Cerveja
+</span>
+</a></p>
+<p>
+<b>
+Peso Bruto:
+</b>
+<span>
+1 kg
+</span>
+</p>
+<p>
+<b>
+Peso Líquido:
+</b>
+<span>
+1 kg
+</span>
+</p>
+<div class='price-range hide'>
+<p>
+<b>
+Preço Médio:
+</b>
+<span id='formatted_price'>
+
+</span>
+</p>
+<p></p>
+</div>
+<hr>
+<br>
+
+<div class='alert alert-warning'>
+<a href="http://www.receita.fazenda.gov.br">Antes de utilizar a classificação confira em receita.fazenda.gov.br</a>
+</div>
+
+</div>
+</div>
+<h4 class='text-left'>
+Produtos com a mesma NCM
+2202.90.00
+</h4>
+<ul class='' id='tbl-produtos'>
+<div class='product-list-item'>
+<span class='picture'>
+<a href="/produtos/7896185312457-nectar-shefa-pessego-200ml"><img alt="7896185312457 - NECTAR SHEFA PESSEGO 200ML" title="7896185312457 - NECTAR SHEFA PESSEGO 200ML" class="list-item-thumbnail" src="https://s3.amazonaws.com/bluesoft-cosmos/products_image/7896185312457" />
+</a></span>
+<br>
+<span class='description'>
+<a title="Clique aqui para visualizar as informações do produto" href="/produtos/7896185312457-nectar-shefa-pessego-200ml">NECTAR SHEFA PESSEGO 200ML</a>
+</span>
+<br>
+<span class='ncm' title='Nomenclatura Comum do Mercosul'>
+</span>
+<span class='barcode'>
+Código de Barras (GTIN/EAN):
+<a href="/produtos/7896185312457-nectar-shefa-pessego-200ml">7896185312457</a>
+<br>
+</span>
+<span class='pricing'>
+
+<span>
+
+</span>
+</span>
+</div>
+<div class='product-list-item'>
+<span class='picture'>
+<a href="/produtos/7896185312495-nectar-shefa-tangerina-200ml"><img alt="7896185312495 - NECTAR SHEFA TANGERINA 200ML" title="7896185312495 - NECTAR SHEFA TANGERINA 200ML" class="list-item-thumbnail" src="https://s3.amazonaws.com/bluesoft-cosmos/products_image/7896185312495" />
+</a></span>
+<br>
+<span class='description'>
+<a title="Clique aqui para visualizar as informações do produto" href="/produtos/7896185312495-nectar-shefa-tangerina-200ml">NECTAR SHEFA TANGERINA 200ML</a>
+</span>
+<br>
+<span class='ncm' title='Nomenclatura Comum do Mercosul'>
+</span>
+<span class='barcode'>
+Código de Barras (GTIN/EAN):
+<a href="/produtos/7896185312495-nectar-shefa-tangerina-200ml">7896185312495</a>
+<br>
+</span>
+<span class='pricing'>
+
+<span>
+
+</span>
+</span>
+</div>
+<div class='product-list-item'>
+<span class='picture'>
+<a href="/produtos/7896185312488-nectar-shefa-uva-200ml"><img alt="7896185312488 - NECTAR SHEFA UVA 200ML" title="7896185312488 - NECTAR SHEFA UVA 200ML" class="list-item-thumbnail" src="https://s3.amazonaws.com/bluesoft-cosmos/products_image/7896185312488" />
+</a></span>
+<br>
+<span class='description'>
+<a title="Clique aqui para visualizar as informações do produto" href="/produtos/7896185312488-nectar-shefa-uva-200ml">NECTAR SHEFA UVA 200ML</a>
+</span>
+<br>
+<span class='ncm' title='Nomenclatura Comum do Mercosul'>
+</span>
+<span class='barcode'>
+Código de Barras (GTIN/EAN):
+<a href="/produtos/7896185312488-nectar-shefa-uva-200ml">7896185312488</a>
+<br>
+</span>
+<span class='pricing'>
+
+<span>
+
+</span>
+</span>
+</div>
+</ul>
+<div class='alert alert-info hide' id='searching-alert' role='alert'>
+<b>
+Buscando produtos, aguarde, por favor...
+</b>
+</div>
+
+<div class='ver_todos'>
+<a title="Exibir mais produtos com a mesma NCM" href="/ncms/22029000-outras/produtos">Exibir mais produtos com a mesma NCM</a>
+</div>
+<h4 class='text-left'>
+Produtos com a mesma GPC
+Cerveja
+</h4>
+<ul class='' id='tbl-produtos'>
+<div class='product-list-item'>
+<span class='picture'>
+<a href="/produtos/853759000117-company-unearthly-india-pale-ale"><img alt="0853759000117 - COMPANY UNEARTHLY INDIA PALE ALE" title="0853759000117 - COMPANY UNEARTHLY INDIA PALE ALE" class="list-item-thumbnail" src="https://s3.amazonaws.com/bluesoft-cosmos/products/853759000117" />
+</a></span>
+<br>
+<span class='description'>
+<a title="Clique aqui para visualizar as informações do produto" href="/produtos/853759000117-company-unearthly-india-pale-ale">COMPANY UNEARTHLY INDIA PALE ALE</a>
+</span>
+<br>
+<span class='ncm' title='Nomenclatura Comum do Mercosul'>
+NCM:
+<a href="/ncms/22030000-cervejas-de-malte">2203.00.00</a>
+<br>
+</span>
+<span class='barcode'>
+Código de Barras (GTIN/EAN):
+<a href="/produtos/853759000117-company-unearthly-india-pale-ale">853759000117</a>
+<br>
+</span>
+<span class='pricing'>
+
+<span>
+
+</span>
+</span>
+</div>
+<div class='product-list-item'>
+<span class='picture'>
+<a href="/produtos/7898551310050-cerveja-nacional-basement-tony-festival-310ml"><img alt="7898551310050 - CERVEJA NACIONAL BASEMENT TONY FESTIVAL 310ML" title="7898551310050 - CERVEJA NACIONAL BASEMENT TONY FESTIVAL 310ML" class="list-item-thumbnail" src="https://s3.amazonaws.com/bluesoft-cosmos/sellers/7898551310050" />
+</a></span>
+<br>
+<span class='description'>
+<a title="Clique aqui para visualizar as informações do produto" href="/produtos/7898551310050-cerveja-nacional-basement-tony-festival-310ml">CERVEJA NACIONAL BASEMENT TONY FESTIVAL 310ML</a>
+</span>
+<br>
+<span class='ncm' title='Nomenclatura Comum do Mercosul'>
+NCM:
+<a href="/ncms/22030000-cervejas-de-malte">2203.00.00</a>
+<br>
+</span>
+<span class='barcode'>
+Código de Barras (GTIN/EAN):
+<a href="/produtos/7898551310050-cerveja-nacional-basement-tony-festival-310ml">7898551310050</a>
+<br>
+</span>
+<span class='pricing'>
+Preço Médio: 
+<span>
+R$ 15,63
+</span>
+</span>
+</div>
+<div class='product-list-item'>
+<span class='picture'>
+<a href="/produtos/8711406015155-cerveja-holandesa-la-trappe-quadruppel-escura-750ml"><img alt="8711406010150 - CERVEJA HOLANDESA LA TRAPPE QUADRUPPEL ESCURA 750ML" title="8711406010150 - CERVEJA HOLANDESA LA TRAPPE QUADRUPPEL ESCURA 750ML" class="list-item-thumbnail" src="https://s3.amazonaws.com/bluesoft-cosmos/products/8711406015155" />
+</a></span>
+<br>
+<span class='description'>
+<a title="Clique aqui para visualizar as informações do produto" href="/produtos/8711406015155-cerveja-holandesa-la-trappe-quadruppel-escura-750ml">CERVEJA HOLANDESA LA TRAPPE QUADRUPPEL ESCURA 750ML</a>
+</span>
+<br>
+<span class='ncm' title='Nomenclatura Comum do Mercosul'>
+NCM:
+<a href="/ncms/22030000-cervejas-de-malte">2203.00.00</a>
+<br>
+</span>
+<span class='barcode'>
+Código de Barras (GTIN/EAN):
+<a href="/produtos/8711406015155-cerveja-holandesa-la-trappe-quadruppel-escura-750ml">8711406015155</a>
+<br>
+</span>
+<span class='pricing'>
+Preço Médio: 
+<span>
+R$ 53,28
+</span>
+</span>
+</div>
+</ul>
+<div class='alert alert-info hide' id='searching-alert' role='alert'>
+<b>
+Buscando produtos, aguarde, por favor...
+</b>
+</div>
+
+<div class='ver_todos'>
+<a title="Exibir mais produtos com a mesma GPC" href="/categorias/cerveja-10000159/produtos">Exibir mais produtos com a mesma GPC</a>
+</div>
+<div aria-labelledby='mySmallModalLabel' class='modal fade' id='barcode-big-modal' role='dialog'>
+<div class='modal-dialog' role='document'>
+<div class='modal-content'>
+<div class='modal-body center'>
+<form>
+<div class='form-group'>
+<label class='control-label'>Largura: &nbsp;</label>
+<input data-slider-id='barcode-width' data-slider-max='5' data-slider-min='1' data-slider-step='1' data-slider-value='2' id='barcode-width' type='int'>
+</div>
+<br>
+<div class='form-group'>
+<label class='control-label'>Altura: &nbsp;</label>
+<input data-slider-id='barcode-height' data-slider-max='200' data-slider-min='10' data-slider-step='5' data-slider-value='90' id='barcode-height' type='int'>
+</div>
+<br>
+<div class='form-group'>
+<label class='control-label'>Fonte: &nbsp;</label>
+<input data-slider-id='barcode-font-size' data-slider-max='36' data-slider-min='0' data-slider-step='1' data-slider-value='18' id='barcode-font-size' type='int'>
+</div>
+</form>
+<img id='barcode-big'>
+<br>
+<br>
+<a class='btn btn-default' download='0000078906587.png' href='' id='barcode-download'>Baixar</a>
+</div>
+</div>
+</div>
+</div>
+<script>
+  var barcode_width = $('#barcode-width').slider().on('slide', generateBigCode);
+  var barcode_height = $('#barcode-height').slider().on('slide', generateBigCode);
+  var barcode_font_size = $('#barcode-font-size').slider().on('slide', generateBigCode);
+  function generateBigCode(){
+  	options = {format: 'EAN',
+  		displayValue: true,
+  		fontSize: barcode_font_size.val()*1,
+  		width: barcode_width.val()*1,
+  		height: barcode_height.val()*1
+  	}
+  
+  	$("#barcode-big").JsBarcode("0000078906587",options);
+  	$("#barcode-download").attr('href', $("#barcode-big").attr('src'));
+  };
+  generateBigCode();
+</script>
+
+
+</div>
+<div class='text-center'>
+<hr>
+<div class='details-placeholder'>
+<h4 class='text-left'>
+Nome da Figura:
+<span>
+2202.90.00
+</span>
+</h4>
+<img class="image" src="/assets/details-placeholder-409f269ec8ebbb009a7c6b581c0fafd4.png" alt="Details placeholder" />
+<a class="btn btn-warning" href="/users/sign_in">Faça Login e Consulte a Tributação Gratuitamente</a>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class='center banner-horizontal ad_externo_horizontal hidden-xs hidden-sm'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banner Horizontal -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2578780778870514"
+     data-ad-slot="9428854127"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+</section>
+<aside class='col-md-4'>
+<div id='vertical-ad'>
+<div class='fb-like-box' data-colorscheme='light' data-header='true' data-href='https://www.facebook.com/BluesoftCosmos' data-show-border='false' data-show-faces='false' data-stream='false' data-width='250'></div>
+<script>
+  (function(d){
+  	var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+  	js = d.createElement('script'); js.id = id; js.async = true;
+  	js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=358299894302240&version=v2.0";
+  	d.getElementsByTagName('head')[0].appendChild(js);
+  	}(document));
+</script>
+<hr>
+<div class='banners center'>
+<a target='_blank'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Retangulo -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2578780778870514"
+     data-ad-slot="4859053721"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</a>
+<hr>
+<div class='ad-interno center'>
+<a href='/banners/redirect/1' target='_blank'>
+<img alt="Acelerato" src="http://cdn.bluesoft.com.br/cosmos/banner-1.jpg" title="" data-original-title="Acelerato">
+</a>
+</div>
+</div>
+</div>
+
+</aside>
+</div>
+
+<footer>
+<div class='footer_links'>
+<span>
+<a href="/termos_de_servico">Termos de Uso</a>
+</span>
+<span>
+<a href="/ajuda">Ajuda</a>
+</span>
+</div>
+<div class='text-center footer_copyright'>
+<img title="Cosmos" alt="Cosmos" width="80px" height="31px" src="/assets/home/logo_cosmos-54d4623f7e2fab6b0b291ad9808d1517.png" />
+é um produto da
+<a href='http://www.bluesoft.com.br' target='_blank'>
+<img title="Bluesoft" alt="Bluesoft" width="71px" height="25px" src="/assets/bluesoft_logo-3c619658684394044c8b49f6e42e4a15.png" />
+</a>
+</div>
+
+</footer>
+<div id='fb-root'></div>
+<script>
+  (function(d, s, id) {
+  	var js, fjs = d.getElementsByTagName(s)[0];
+  	if (d.getElementById(id)) return;
+  	js = d.createElement(s); js.id = id;
+  	js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=358299894302240&version=v2.0";
+  	fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<div class='modal' data-backdrop='static' data-keyboard='false' id='modalAguardeShared'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header'>
+<h5 class='modal-title'>Por favor Aguarde...</h5>
+</div>
+<div class='modal-body text-center'>
+<img src="/assets/ajax-loader-8140bee653c619f49147e35919269684.gif" alt="Ajax loader" />
+</div>
+</div>
+</div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+  	ga('create', "UA-6234192-14", 'auto');
+  	ga('require', 'displayfeatures');
+  	ga('send', 'pageview');
+</script>
+</body>
+</html>
+
