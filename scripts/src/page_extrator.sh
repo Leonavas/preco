@@ -3,7 +3,7 @@
 #name of downloaded file
 INFILE=$1
 
-HOME_DIR=/home/leonavas/projects/pers/preco/scripts/src
+HOME_DIR=/home/leonavas/projects/personal/crawler/preco/scripts/src
 
 
 if [ $# -lt 2 ];then
@@ -26,32 +26,39 @@ fi
 # change the default message level from ERROR to INFO
 logger_setLevel DEBUG
 
+url=$1
+filename=$(basename "$url")
+wget "$url" 1> NUL 2> NUL
+
 logger_info "Started extracting data from "$INFILE
 #gets ean from dowloaded file
-ean=$(cut -d "-" -f 1 <<< $1)
+ean=$(cut -d "-" -f 1 <<< $filename)
+#ean=$(grep -A1 "GTIN/EAN" | tail -1 | cut -d ">" -f2 | cut -d "<" -f1)
 
 #NAME
-name=$(cat $INFILE | grep -A1 -m1 "<h1 class='page-header'>" | tail -1)
+name=$(cat $filename | grep -A1 -m1 "<h1 class='page-header'>" | tail -1)
 
 #BRAND
-brand=$(cat $INFILE | grep -A3 -m2 "Marca:" | tail -1 | cut -d ">" -f2)
+brand=$(cat $filename | grep -A3 -m2 "Marca:" | tail -1 | cut -d ">" -f2)
 
 #CATEGORY
-category=$(cat $INFILE | grep -A3 -m1 "Categoria (GPC):" | tail -1 | cut -d ">" -f2)
+category=$(cat $filename | grep -A3 -m1 "Categoria (GPC):" | tail -1 | cut -d ">" -f2)
 
 #PESO BRUTO
-gross_weight=$(cat $INFILE | grep -A3 -m1 "Peso Bruto:" | tail -1 | cut -d ">" -f2)
+gross_weight=$(cat $filename | grep -A3 -m1 "Peso Bruto:" | tail -1 | cut -d ">" -f2)
 
 #PESO LIQUIDO
-net_weight=$(cat $INFILE | grep -A3 -m1 "Peso Líquido:" | tail -1 | cut -d ">" -f2)
+net_weight=$(cat $filename | grep -A3 -m1 "Peso Líquido:" | tail -1 | cut -d ">" -f2)
 
 #PREÇO MÉDIO
-medium_price=$(cat $INFILE | grep -A3 -m1 "o Médio:" | tail -1 | cut -d ">" -f2)
+medium_price=$(cat $filename | grep -A3 -m1 "o Médio:" | tail -1 | cut -d ">" -f2)
 
 #IMG
-img=$(cat $INFILE | grep "id=\"main-thumbnail\"" | cut -d "=" -f7 | cut -d "\"" -f2)
+img=$(cat $filename | grep "id=\"main-thumbnail\"" | cut -d "=" -f7 | cut -d "\"" -f2)
 if [[ $img == *"product-placeholder"* ]]; then
     unset img
 fi
 
-echo $ean";"$name";"$category";"$medium_price";"$brand";"$gross_weight";"$net_weight";"$img
+rm $filename
+
+echo $ean";"$name";"$category";"$medium_price";"$brand";"$gross_weight";"$net_weight";"$img >> /home/leonavas/projects/personal/crawler/preco/scripts/src/output/data.csv
