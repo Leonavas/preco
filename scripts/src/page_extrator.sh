@@ -6,13 +6,14 @@ INFILE=$1
 HOME_DIR=/home/leonavas/projects/pers/preco/scripts/src
 
 
-if [ $# -lt 2 ];then
+if [ $# -lt 0 ];then
     echo -e "Usage: ./page_extractor <INFILE> <CONFIG FILE>"
     exit 1
 else
     CONF=$2
 fi
 
+CONF=/home/leonavas/projects/pers/preco/scripts/src/config/page_extractor.properties.cfg
 LOG4SH_PROPERTIES=$(cat $CONF | grep log4sh_properties | awk '{ if ($1 == "log4sh_properties") print $2}' FS=\=)
 
 # load log4sh
@@ -24,7 +25,7 @@ else
 fi
 
 # change the default message level from ERROR to INFO
-logger_setLevel DEBUG
+logger_setLevel ERROR
 
 OUTFILE=/home/leonavas/Desktop/data.csv
 
@@ -69,8 +70,10 @@ if [[ $found -lt 1 ]]; then
   fi
 
   #echo $ean";"$name";"$category";"$medium_price";"$brand";"$gross_weight";"$net_weight";"$img
-  #echo $ean";"$name";"$brand";"$category";"$img >> $OUTFILE
-  echo $ean";"$name";"$brand";"$category";"$img
+  echo $ean";"$name";"$brand";"$category";"$img >> $OUTFILE
+  #echo $ean";"$name";"$brand";"$category";"$img
+else
+  logger_error "ean didnt return outputs: "$ean
 fi
 rm $filename
 
