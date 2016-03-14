@@ -26,32 +26,49 @@ fi
 # change the default message level from ERROR to INFO
 logger_setLevel DEBUG
 
-logger_info "Started extracting data from "$INFILE
+OUTFILE=/home/leonavas/Desktop/data.csv
+
+ean=$1
+url="http://cosmos.bluesoft.com.br/pesquisar?q="$ean
+filename=$(basename "$url")
+wget "$url" 1> NUL 2> NUL
+
+logger_info "Started extracting data from page "$url
+
 #gets ean from dowloaded file
-ean=$(cut -d "-" -f 1 <<< $1)
+#ean=$(cut -d "-" -f 1 <<< $filename)
 
-#NAME
-name=$(cat $INFILE | grep -A1 -m1 "<h1 class='page-header'>" | tail -1)
+found=$(cat $filename | grep "Resultados da Busca" | wc -l)
 
-#BRAND
-brand=$(cat $INFILE | grep -A3 -m2 "Marca:" | tail -1 | cut -d ">" -f2)
+if [[ $found -lt 1 ]]; then
+  #NAME
+  name=$(cat $filename | grep -A1 -m1 "<h1 class='page-header'>" | tail -1)
 
-#CATEGORY
-category=$(cat $INFILE | grep -A3 -m1 "Categoria (GPC):" | tail -1 | cut -d ">" -f2)
+  #BRAND
+  #brand=$(cat $INFILE | grep -A3 -m2 "Marca:" | tail -1 | cut -d ">" -f2)
+  brand=$(cat $filename | grep -A3 -m2 "Marca:" | tail -1 | cut -d ">" -f2 | cut -d "<" -f1)
 
-#PESO BRUTO
-gross_weight=$(cat $INFILE | grep -A3 -m1 "Peso Bruto:" | tail -1 | cut -d ">" -f2)
+  #CATEGORY
+  #category=$(cat $INFILE | grep -A3 -m1 "Categoria (GPC):" | tail -1 | cut -d ">" -f2)
+  category=$(cat $filename | grep -A1 "gpc-name" | tail -1 | cut -d ">" -f2 | cut -d "<" -f1)
 
-#PESO LIQUIDO
-net_weight=$(cat $INFILE | grep -A3 -m1 "Peso Líquido:" | tail -1 | cut -d ">" -f2)
+  #PESO BRUTO
+  #gross_weight=$(cat $INFILE | grep -A3 -m1 "Peso Bruto:" | tail -1 | cut -d ">" -f2)
 
-#PREÇO MÉDIO
-medium_price=$(cat $INFILE | grep -A3 -m1 "o Médio:" | tail -1 | cut -d ">" -f2)
+  #PESO LIQUIDO
+  #net_weight=$(cat $INFILE | grep -A3 -m1 "Peso Líquido:" | tail -1 | cut -d ">" -f2)
 
-#IMG
-img=$(cat $INFILE | grep "id=\"main-thumbnail\"" | cut -d "=" -f7 | cut -d "\"" -f2)
-if [[ $img == *"product-placeholder"* ]]; then
+  #PREÇO MÉDIO
+  #medium_price=$(cat $INFILE | grep -A3 -m1 "o Médio:" | tail -1 | cut -d ">" -f2)
+
+  #IMG
+  #img=$(cat $INFILE | grep "id=\"main-thumbnail\"" | cut -d "=" -f7 | cut -d "\"" -f2)
+  img=$(cat $filename | grep "img alt" | head -1 | cut -d "=" -f5 | tr -d '"' | cut -d' ' -f1)
+  if [[ $img == *"product-placeholder"* ]]; then
     unset img
-fi
+  fi
 
-echo $ean";"$name";"$category";"$medium_price";"$brand";"$gross_weight";"$net_weight";"$img
+  #echo $ean";"$name";"$category";"$medium_price";"$brand";"$gross_weight";"$net_weight";"$img
+  #echo $ean";"$name";"$brand";"$category";"$img >> $OUTFILE
+  echo $ean";"$name";"$brand";"$category";"$img
+fi
