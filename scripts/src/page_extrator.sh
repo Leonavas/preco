@@ -31,7 +31,7 @@ OUTFILE=/home/leonavas/Desktop/data.csv
 ean=$1
 url="http://cosmos.bluesoft.com.br/pesquisar?q="$ean
 filename=$(basename "$url")
-wget "$url" 1> NUL 2> NUL
+wget "$url" 1> /dev/null 2> /dev/null
 
 logger_info "Started extracting data from page "$url
 
@@ -72,3 +72,5 @@ if [[ $found -lt 1 ]]; then
   #echo $ean";"$name";"$brand";"$category";"$img >> $OUTFILE
   echo $ean";"$name";"$brand";"$category";"$img
 fi
+rm $filename
+
