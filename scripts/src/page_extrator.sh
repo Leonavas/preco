@@ -69,9 +69,12 @@ if [[ $found -lt 1 ]]; then
     unset img
   fi
 
+  #ncm=$(cat $filename | grep -m1 "NCM:" | cut -d ":" -f3 | cut -c2- | cut -d "'" -f1)
+  ncm=$(cat $filename | grep -A2 "label-figura-fiscal" | cut -d ">" -f2 | cut -d "<" -f1 | tr '\n' ' ' | cut -c 2-)
+
   #echo $ean";"$name";"$category";"$medium_price";"$brand";"$gross_weight";"$net_weight";"$img
-  echo $ean";"$name";"$brand";"$category";"$img >> $OUTFILE
-  #echo $ean";"$name";"$brand";"$category";"$img
+  #echo $ean";"$name";"$brand";"$category";"$img";"$ncm >> $OUTFILE
+  echo $ean";"$name";"$brand";"$category";"$img";"$ncm
 else
   logger_error "ean didnt return outputs: "$ean
 fi
